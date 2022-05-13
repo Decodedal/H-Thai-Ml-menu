@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 #banner img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
@@ -72,6 +72,7 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 table {
@@ -83,4 +84,15 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+nav ul{
+    list-style-type:none;
+}
+
+nav li{
+    display: inline;
+}
+ul{
+    list-style-type: none;
 }
